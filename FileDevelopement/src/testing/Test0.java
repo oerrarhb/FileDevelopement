@@ -25,6 +25,10 @@ public class Test0 {
 				fos.write(tab_bytes);
 			}
 			
+			fis.close();
+			fos.close();
+			
+			
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

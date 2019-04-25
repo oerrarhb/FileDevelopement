@@ -27,6 +27,9 @@ public class Test {
 			System.out.println("The content of the file is :");
 			System.out.println(strb.toString());
 			
+			
+			fr.close();
+			
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
